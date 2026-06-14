@@ -1,0 +1,269 @@
+2026-06-14 15:44:07 | initialize_project | INFO | initialize_project.py:71 | === Starting Project Initialization ===
+2026-06-14 15:44:07 | initialize_project | INFO | initialize_project.py:23 | Initializing project folder structure...
+2026-06-14 15:44:07 | initialize_project | INFO | initialize_project.py:27 | Directory verified/created: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data
+2026-06-14 15:44:07 | initialize_project | INFO | initialize_project.py:27 | Directory verified/created: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\raw
+2026-06-14 15:44:07 | initialize_project | INFO | initialize_project.py:27 | Directory verified/created: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\processed
+2026-06-14 15:44:07 | initialize_project | INFO | initialize_project.py:27 | Directory verified/created: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\notebooks
+2026-06-14 15:44:07 | initialize_project | INFO | initialize_project.py:27 | Directory verified/created: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\src
+2026-06-14 15:44:07 | initialize_project | INFO | initialize_project.py:27 | Directory verified/created: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\models
+2026-06-14 15:44:07 | initialize_project | INFO | initialize_project.py:27 | Directory verified/created: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\outputs
+2026-06-14 15:44:07 | initialize_project | INFO | initialize_project.py:27 | Directory verified/created: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\logs
+2026-06-14 15:44:07 | initialize_project | INFO | initialize_project.py:27 | Directory verified/created: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\app
+2026-06-14 15:44:07 | initialize_project | INFO | initialize_project.py:32 | Folder structure initialized successfully!
+2026-06-14 15:44:07 | initialize_project | INFO | initialize_project.py:50 | Verifying library installations and versions...
+2026-06-14 15:44:07 | initialize_project | INFO | initialize_project.py:58 |  - pandas: Version 3.0.3 is installed.
+2026-06-14 15:44:07 | initialize_project | INFO | initialize_project.py:58 |  - numpy: Version 2.4.6 is installed.
+2026-06-14 15:44:08 | initialize_project | INFO | initialize_project.py:58 |  - scikit-learn: Version 1.9.0 is installed.
+2026-06-14 15:44:09 | initialize_project | INFO | initialize_project.py:58 |  - matplotlib: Version 3.11.0 is installed.
+2026-06-14 15:44:10 | initialize_project | INFO | initialize_project.py:58 |  - seaborn: Version 0.13.2 is installed.
+2026-06-14 15:44:10 | initialize_project | INFO | initialize_project.py:58 |  - streamlit: Version 1.58.0 is installed.
+2026-06-14 15:44:10 | initialize_project | INFO | initialize_project.py:58 |  - scipy: Version 1.17.1 is installed.
+2026-06-14 15:44:11 | initialize_project | INFO | initialize_project.py:58 |  - nltk: Version 3.9.4 is installed.
+2026-06-14 15:44:11 | initialize_project | INFO | initialize_project.py:58 |  - joblib: Version 1.5.3 is installed.
+2026-06-14 15:44:11 | initialize_project | INFO | initialize_project.py:67 | All library installations verified successfully!
+2026-06-14 15:44:11 | initialize_project | INFO | initialize_project.py:77 | === Project Initialization Completed Successfully ===
+2026-06-14 15:44:22 | test_setup | INFO | test_setup.py:89 | === Running Verification Tests ===
+2026-06-14 15:44:22 | test_setup | INFO | test_setup.py:21 | Testing directory paths configuration...
+2026-06-14 15:44:22 | test_setup | INFO | test_setup.py:25 | Directory verified: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data
+2026-06-14 15:44:22 | test_setup | INFO | test_setup.py:25 | Directory verified: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\raw
+2026-06-14 15:44:22 | test_setup | INFO | test_setup.py:25 | Directory verified: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\processed
+2026-06-14 15:44:22 | test_setup | INFO | test_setup.py:25 | Directory verified: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\logs
+2026-06-14 15:44:22 | test_setup | INFO | test_setup.py:26 | ✓ All directories verified successfully.
+2026-06-14 15:44:22 | test_setup | INFO | test_setup.py:32 | Testing file logger mechanism...
+2026-06-14 15:44:22 | test_setup | DEBUG | test_setup.py:34 | TEST_LOG_MESSAGE_XYZ_123
+2026-06-14 15:44:22 | test_setup | INFO | test_setup.py:43 | ✓ Logging verification passed. Messages written successfully to file.
+2026-06-14 15:44:22 | test_setup | INFO | test_setup.py:49 | Testing pandas/dataframe utilities...
+2026-06-14 15:44:22 | movie_rec.helpers | INFO | helpers.py:72 | --- DataFrame Information: Test DF ---
+2026-06-14 15:44:22 | movie_rec.helpers | INFO | helpers.py:73 | Shape: 3 rows, 3 columns
+2026-06-14 15:44:22 | movie_rec.helpers | INFO | helpers.py:74 | Columns: ['id', 'name', 'score']
+2026-06-14 15:44:22 | movie_rec.helpers | INFO | helpers.py:78 | Memory Usage: 0.00 MB
+2026-06-14 15:44:22 | movie_rec.helpers | DEBUG | helpers.py:79 | Data types:
+id         int64
+name         str
+score    float64
+dtype: object
+2026-06-14 15:44:22 | movie_rec.helpers | INFO | helpers.py:91 | Checking for missing values...
+2026-06-14 15:44:22 | movie_rec.helpers | INFO | helpers.py:103 | Found missing values in 2 columns.
+2026-06-14 15:44:22 | movie_rec.helpers | DEBUG | helpers.py:104 | Missing values summary:
+       Missing Count  Percentage (%)
+name               1       33.333333
+score              1       33.333333
+2026-06-14 15:44:22 | test_setup | INFO | test_setup.py:66 | ✓ check_missing_values helper verification passed.
+2026-06-14 15:44:22 | movie_rec.helpers | INFO | helpers.py:52 | Attempting to save DataFrame to: temp_test.csv
+2026-06-14 15:44:22 | movie_rec.helpers | DEBUG | helpers.py:53 | Full destination path: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\processed\temp_test.csv
+2026-06-14 15:44:22 | movie_rec.helpers | INFO | helpers.py:58 | Successfully saved DataFrame to C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\processed\temp_test.csv
+2026-06-14 15:44:22 | test_setup | INFO | test_setup.py:72 | ✓ save_dataframe helper verification passed.
+2026-06-14 15:44:22 | movie_rec.helpers | INFO | helpers.py:22 | Attempting to read CSV file from: temp_test.csv
+2026-06-14 15:44:22 | movie_rec.helpers | DEBUG | helpers.py:23 | Full CSV file path: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\processed\temp_test.csv
+2026-06-14 15:44:22 | movie_rec.helpers | INFO | helpers.py:31 | Successfully loaded CSV with shape (3, 3)
+2026-06-14 15:44:22 | test_setup | INFO | test_setup.py:79 | ✓ read_csv helper verification passed.
+2026-06-14 15:44:22 | test_setup | INFO | test_setup.py:84 | ✓ Temp test files cleaned up successfully.
+2026-06-14 15:44:22 | test_setup | INFO | test_setup.py:94 | === All Setup Verification Tests Passed! ===
+2026-06-14 15:44:38 | test_setup | INFO | test_setup.py:89 | === Running Verification Tests ===
+2026-06-14 15:44:38 | test_setup | INFO | test_setup.py:21 | Testing directory paths configuration...
+2026-06-14 15:44:38 | test_setup | INFO | test_setup.py:25 | Directory verified: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data
+2026-06-14 15:44:38 | test_setup | INFO | test_setup.py:25 | Directory verified: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\raw
+2026-06-14 15:44:38 | test_setup | INFO | test_setup.py:25 | Directory verified: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\processed
+2026-06-14 15:44:38 | test_setup | INFO | test_setup.py:25 | Directory verified: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\logs
+2026-06-14 15:44:38 | test_setup | INFO | test_setup.py:26 | [SUCCESS] All directories verified successfully.
+2026-06-14 15:44:38 | test_setup | INFO | test_setup.py:32 | Testing file logger mechanism...
+2026-06-14 15:44:38 | test_setup | DEBUG | test_setup.py:34 | TEST_LOG_MESSAGE_XYZ_123
+2026-06-14 15:44:38 | test_setup | INFO | test_setup.py:43 | [SUCCESS] Logging verification passed. Messages written successfully to file.
+2026-06-14 15:44:38 | test_setup | INFO | test_setup.py:49 | Testing pandas/dataframe utilities...
+2026-06-14 15:44:38 | movie_rec.helpers | INFO | helpers.py:72 | --- DataFrame Information: Test DF ---
+2026-06-14 15:44:38 | movie_rec.helpers | INFO | helpers.py:73 | Shape: 3 rows, 3 columns
+2026-06-14 15:44:38 | movie_rec.helpers | INFO | helpers.py:74 | Columns: ['id', 'name', 'score']
+2026-06-14 15:44:38 | movie_rec.helpers | INFO | helpers.py:78 | Memory Usage: 0.00 MB
+2026-06-14 15:44:38 | movie_rec.helpers | DEBUG | helpers.py:79 | Data types:
+id         int64
+name         str
+score    float64
+dtype: object
+2026-06-14 15:44:38 | movie_rec.helpers | INFO | helpers.py:91 | Checking for missing values...
+2026-06-14 15:44:38 | movie_rec.helpers | INFO | helpers.py:103 | Found missing values in 2 columns.
+2026-06-14 15:44:38 | movie_rec.helpers | DEBUG | helpers.py:104 | Missing values summary:
+       Missing Count  Percentage (%)
+name               1       33.333333
+score              1       33.333333
+2026-06-14 15:44:38 | test_setup | INFO | test_setup.py:66 | [SUCCESS] check_missing_values helper verification passed.
+2026-06-14 15:44:38 | movie_rec.helpers | INFO | helpers.py:52 | Attempting to save DataFrame to: temp_test.csv
+2026-06-14 15:44:38 | movie_rec.helpers | DEBUG | helpers.py:53 | Full destination path: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\processed\temp_test.csv
+2026-06-14 15:44:38 | movie_rec.helpers | INFO | helpers.py:58 | Successfully saved DataFrame to C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\processed\temp_test.csv
+2026-06-14 15:44:38 | test_setup | INFO | test_setup.py:72 | [SUCCESS] save_dataframe helper verification passed.
+2026-06-14 15:44:38 | movie_rec.helpers | INFO | helpers.py:22 | Attempting to read CSV file from: temp_test.csv
+2026-06-14 15:44:38 | movie_rec.helpers | DEBUG | helpers.py:23 | Full CSV file path: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\processed\temp_test.csv
+2026-06-14 15:44:38 | movie_rec.helpers | INFO | helpers.py:31 | Successfully loaded CSV with shape (3, 3)
+2026-06-14 15:44:38 | test_setup | INFO | test_setup.py:79 | [SUCCESS] read_csv helper verification passed.
+2026-06-14 15:44:38 | test_setup | INFO | test_setup.py:84 | [SUCCESS] Temp test files cleaned up successfully.
+2026-06-14 15:44:38 | test_setup | INFO | test_setup.py:94 | === All Setup Verification Tests Passed! ===
+2026-06-14 15:45:19 | movie_rec.helpers | INFO | helpers.py:91 | Checking for missing values...
+2026-06-14 15:45:19 | movie_rec.helpers | INFO | helpers.py:103 | Found missing values in 3 columns.
+2026-06-14 15:45:19 | movie_rec.helpers | DEBUG | helpers.py:104 | Missing values summary:
+        Missing Count  Percentage (%)
+title               1            12.5
+genre               1            12.5
+rating              1            12.5
+2026-06-14 15:45:50 | movie_rec.helpers | INFO | helpers.py:91 | Checking for missing values...
+2026-06-14 15:45:50 | movie_rec.helpers | INFO | helpers.py:103 | Found missing values in 3 columns.
+2026-06-14 15:45:50 | movie_rec.helpers | DEBUG | helpers.py:104 | Missing values summary:
+        Missing Count  Percentage (%)
+title               1            12.5
+genre               1            12.5
+rating              1            12.5
+2026-06-14 15:46:29 | movie_rec.helpers | INFO | helpers.py:91 | Checking for missing values...
+2026-06-14 15:46:29 | movie_rec.helpers | INFO | helpers.py:103 | Found missing values in 3 columns.
+2026-06-14 15:46:29 | movie_rec.helpers | DEBUG | helpers.py:104 | Missing values summary:
+        Missing Count  Percentage (%)
+title               1            12.5
+genre               1            12.5
+rating              1            12.5
+2026-06-14 15:51:06 | verify_data_prep | INFO | verify_data_preparation.py:119 | Starting verify_data_preparation validation...
+2026-06-14 15:51:06 | movie_rec.data_prep | INFO | data_preparation.py:239 | === Starting Data Preparation Pipeline ===
+2026-06-14 15:51:06 | movie_rec.data_prep | INFO | data_preparation.py:16 | Verifying raw MovieLens datasets availability...
+2026-06-14 15:51:06 | movie_rec.downloader | INFO | downloader.py:30 | Downloading MovieLens dataset from https://files.grouplens.org/datasets/movielens/ml-latest-small.zip...
+2026-06-14 15:51:10 | movie_rec.downloader | INFO | downloader.py:38 | Download completed successfully. Extracting files...
+2026-06-14 15:51:10 | movie_rec.downloader | INFO | downloader.py:50 | Extracted: links.csv -> C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\raw\links.csv
+2026-06-14 15:51:10 | movie_rec.downloader | INFO | downloader.py:50 | Extracted: tags.csv -> C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\raw\tags.csv
+2026-06-14 15:51:10 | movie_rec.downloader | INFO | downloader.py:50 | Extracted: ratings.csv -> C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\raw\ratings.csv
+2026-06-14 15:51:10 | movie_rec.downloader | INFO | downloader.py:50 | Extracted: movies.csv -> C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\raw\movies.csv
+2026-06-14 15:51:10 | movie_rec.downloader | INFO | downloader.py:54 | Successfully downloaded and extracted all raw datasets!
+2026-06-14 15:51:10 | movie_rec.helpers | INFO | helpers.py:22 | Attempting to read CSV file from: movies.csv
+2026-06-14 15:51:10 | movie_rec.helpers | DEBUG | helpers.py:23 | Full CSV file path: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\raw\movies.csv
+2026-06-14 15:51:10 | movie_rec.helpers | INFO | helpers.py:31 | Successfully loaded CSV with shape (9742, 3)
+2026-06-14 15:51:10 | movie_rec.helpers | INFO | helpers.py:22 | Attempting to read CSV file from: ratings.csv
+2026-06-14 15:51:10 | movie_rec.helpers | DEBUG | helpers.py:23 | Full CSV file path: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\raw\ratings.csv
+2026-06-14 15:51:10 | movie_rec.helpers | INFO | helpers.py:31 | Successfully loaded CSV with shape (100836, 4)
+2026-06-14 15:51:10 | movie_rec.helpers | INFO | helpers.py:22 | Attempting to read CSV file from: tags.csv
+2026-06-14 15:51:10 | movie_rec.helpers | DEBUG | helpers.py:23 | Full CSV file path: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\raw\tags.csv
+2026-06-14 15:51:10 | movie_rec.helpers | INFO | helpers.py:31 | Successfully loaded CSV with shape (3683, 4)
+2026-06-14 15:51:10 | movie_rec.helpers | INFO | helpers.py:22 | Attempting to read CSV file from: links.csv
+2026-06-14 15:51:10 | movie_rec.helpers | DEBUG | helpers.py:23 | Full CSV file path: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\raw\links.csv
+2026-06-14 15:51:10 | movie_rec.helpers | INFO | helpers.py:31 | Successfully loaded CSV with shape (9742, 3)
+2026-06-14 15:51:10 | movie_rec.data_prep | INFO | data_preparation.py:51 | Cleaning movies dataset...
+2026-06-14 15:51:10 | movie_rec.data_prep | INFO | data_preparation.py:78 | Found 13 movies with missing/unparseable release year.
+2026-06-14 15:51:10 | movie_rec.data_prep | INFO | data_preparation.py:87 | Movies dataset cleaning complete.
+2026-06-14 15:51:10 | movie_rec.data_prep | INFO | data_preparation.py:103 | Cleaning ratings dataset...
+2026-06-14 15:51:10 | movie_rec.data_prep | INFO | data_preparation.py:122 | Ratings dataset cleaning complete.
+2026-06-14 15:51:10 | movie_rec.data_prep | INFO | data_preparation.py:138 | Cleaning tags dataset...
+2026-06-14 15:51:11 | movie_rec.data_prep | INFO | data_preparation.py:156 | Tags dataset cleaning complete.
+2026-06-14 15:51:11 | movie_rec.data_prep | INFO | data_preparation.py:172 | Starting dataset merge and aggregation...
+2026-06-14 15:51:11 | movie_rec.data_prep | INFO | data_preparation.py:175 | Aggregating rating metrics...
+2026-06-14 15:51:11 | movie_rec.data_prep | INFO | data_preparation.py:185 | Aggregating tag strings...
+2026-06-14 15:51:11 | movie_rec.data_prep | INFO | data_preparation.py:201 | Dataset merge and aggregation completed successfully.
+2026-06-14 15:51:11 | movie_rec.data_prep | INFO | data_preparation.py:210 | Running validation tests on processed DataFrames...
+2026-06-14 15:51:11 | movie_rec.data_prep | INFO | data_preparation.py:232 | All processed data validation assertions PASSED.
+2026-06-14 15:51:11 | movie_rec.helpers | INFO | helpers.py:52 | Attempting to save DataFrame to: processed_movies.csv
+2026-06-14 15:51:11 | movie_rec.helpers | DEBUG | helpers.py:53 | Full destination path: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\processed\processed_movies.csv
+2026-06-14 15:51:11 | movie_rec.helpers | INFO | helpers.py:58 | Successfully saved DataFrame to C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\processed\processed_movies.csv
+2026-06-14 15:51:11 | movie_rec.helpers | INFO | helpers.py:52 | Attempting to save DataFrame to: processed_ratings.csv
+2026-06-14 15:51:11 | movie_rec.helpers | DEBUG | helpers.py:53 | Full destination path: C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\processed\processed_ratings.csv
+2026-06-14 15:51:11 | movie_rec.helpers | INFO | helpers.py:58 | Successfully saved DataFrame to C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\processed\processed_ratings.csv
+2026-06-14 15:51:11 | movie_rec.data_prep | INFO | data_preparation.py:262 | === Data Preparation Pipeline Completed Successfully ===
+2026-06-14 15:51:11 | verify_data_prep | INFO | verify_data_preparation.py:28 | Computing summary statistics...
+2026-06-14 15:51:11 | verify_data_prep | INFO | verify_data_preparation.py:86 | Summary statistics successfully saved to C:\Users\GOPI MADHAVI\OneDrive\Documents\Desktop\movie recommendation system\data\processed\summary_statistics.json
+2026-06-14 15:51:11 | verify_data_prep | INFO | verify_data_preparation.py:130 | [SUCCESS] Dataset Preparation and Integrity Audits Completed Successfully!
+2026-06-14 15:58:35 | run_eda | INFO | run_eda.py:73 | Initializing run_eda wrapper...
+2026-06-14 15:58:35 | movie_rec.eda | INFO | eda.py:196 | === Starting Exploratory Data Analysis ===
+2026-06-14 15:58:35 | movie_rec.eda | INFO | eda.py:49 | Plotting rating distribution...
+2026-06-14 15:58:36 | movie_rec.eda | INFO | eda.py:77 | Saved rating distribution to rating_distribution.png
+2026-06-14 15:58:36 | movie_rec.eda | INFO | eda.py:83 | Plotting user activity distribution...
+2026-06-14 15:58:37 | movie_rec.eda | INFO | eda.py:109 | Saved user activity distribution to user_activity.png
+2026-06-14 15:58:37 | movie_rec.eda | INFO | eda.py:115 | Plotting genre frequency distribution...
+2026-06-14 15:58:38 | movie_rec.eda | INFO | eda.py:138 | Saved genre distribution to genre_distribution.png
+2026-06-14 15:58:38 | movie_rec.eda | INFO | eda.py:144 | Plotting movies released over time...
+2026-06-14 15:58:38 | movie_rec.eda | INFO | eda.py:160 | Saved movies by year plot to movies_by_year.png
+2026-06-14 15:58:38 | movie_rec.eda | INFO | eda.py:166 | Plotting ratings count vs rating mean...
+2026-06-14 15:58:38 | movie_rec.eda | INFO | eda.py:190 | Saved rating count vs mean correlation to rating_count_vs_mean.png
+2026-06-14 15:58:38 | movie_rec.eda | INFO | eda.py:211 | === EDA Pipeline Completed Successfully ===
+2026-06-14 15:58:39 | run_eda | INFO | run_eda.py:24 | Extracting narrative insights...
+2026-06-14 15:58:39 | run_eda | INFO | run_eda.py:82 | [SUCCESS] EDA Visualizations and Narrative Reports Generated Successfully!
+2026-06-14 16:05:48 | movie_rec.content_based | INFO | content_based.py:352 | No existing artefacts found — building model from scratch.
+2026-06-14 16:05:48 | movie_rec.content_based | INFO | content_based.py:354 | === Building Content-Based Recommendation Model ===
+2026-06-14 16:05:48 | movie_rec.content_based | INFO | content_based.py:363 | Loaded movies_df: (9742, 8)
+2026-06-14 16:05:48 | movie_rec.content_based | INFO | content_based.py:59 | Building feature soup for every movie...
+2026-06-14 16:05:48 | movie_rec.content_based | INFO | content_based.py:84 | Feature soup built for 9,742 movies.
+2026-06-14 16:05:48 | movie_rec.content_based | INFO | content_based.py:103 | Fitting TF-IDF vectorizer...
+2026-06-14 16:05:48 | movie_rec.content_based | INFO | content_based.py:114 | TF-IDF matrix built: 9,742 movies × 6,342 features  (density 0.116%)
+2026-06-14 16:05:48 | movie_rec.content_based | INFO | content_based.py:139 | Computing pairwise cosine similarity matrix (this may take a moment)...
+2026-06-14 16:05:49 | movie_rec.content_based | INFO | content_based.py:141 | Cosine similarity matrix shape: (9742, 9742)
+2026-06-14 16:05:49 | movie_rec.content_based | INFO | content_based.py:172 | Saved tfidf_vectorizer.joblib  (0.05 MB)
+2026-06-14 16:05:49 | movie_rec.content_based | INFO | content_based.py:172 | Saved tfidf_matrix.joblib  (0.58 MB)
+2026-06-14 16:05:57 | movie_rec.content_based | INFO | content_based.py:172 | Saved cosine_sim_matrix.joblib  (159.07 MB)
+2026-06-14 16:05:57 | movie_rec.content_based | INFO | content_based.py:172 | Saved content_movies_index.joblib  (0.12 MB)
+2026-06-14 16:05:57 | movie_rec.content_based | INFO | content_based.py:383 | === Content-Based Model Build Complete ===
+2026-06-14 16:05:57 | movie_rec.content_based | INFO | content_based.py:266 | Generating recommendations for: 'Toy Story'  (row 0)
+2026-06-14 16:05:57 | movie_rec.content_based | INFO | content_based.py:283 | Returning 3 recommendations.
+2026-06-14 16:06:06 | run_content_based | INFO | run_content_based.py:109 | Starting content-based model evaluation...
+2026-06-14 16:06:06 | movie_rec.content_based | INFO | content_based.py:354 | === Building Content-Based Recommendation Model ===
+2026-06-14 16:06:06 | movie_rec.content_based | INFO | content_based.py:363 | Loaded movies_df: (9742, 8)
+2026-06-14 16:06:06 | movie_rec.content_based | INFO | content_based.py:59 | Building feature soup for every movie...
+2026-06-14 16:06:06 | movie_rec.content_based | INFO | content_based.py:84 | Feature soup built for 9,742 movies.
+2026-06-14 16:06:06 | movie_rec.content_based | INFO | content_based.py:103 | Fitting TF-IDF vectorizer...
+2026-06-14 16:06:07 | movie_rec.content_based | INFO | content_based.py:114 | TF-IDF matrix built: 9,742 movies × 6,342 features  (density 0.116%)
+2026-06-14 16:06:07 | movie_rec.content_based | INFO | content_based.py:139 | Computing pairwise cosine similarity matrix (this may take a moment)...
+2026-06-14 16:06:07 | movie_rec.content_based | INFO | content_based.py:141 | Cosine similarity matrix shape: (9742, 9742)
+2026-06-14 16:06:07 | movie_rec.content_based | INFO | content_based.py:172 | Saved tfidf_vectorizer.joblib  (0.05 MB)
+2026-06-14 16:06:07 | movie_rec.content_based | INFO | content_based.py:172 | Saved tfidf_matrix.joblib  (0.58 MB)
+2026-06-14 16:06:16 | movie_rec.content_based | INFO | content_based.py:172 | Saved cosine_sim_matrix.joblib  (159.07 MB)
+2026-06-14 16:06:16 | movie_rec.content_based | INFO | content_based.py:172 | Saved content_movies_index.joblib  (0.12 MB)
+2026-06-14 16:06:16 | movie_rec.content_based | INFO | content_based.py:383 | === Content-Based Model Build Complete ===
+2026-06-14 16:07:41 | run_content_based | INFO | run_content_based.py:109 | Starting content-based model evaluation...
+2026-06-14 16:07:41 | movie_rec.content_based | INFO | content_based.py:198 | Loading content-based model artefacts from disk...
+2026-06-14 16:07:44 | movie_rec.content_based | INFO | content_based.py:203 | All model artefacts loaded successfully.
+2026-06-14 16:07:44 | movie_rec.content_based | INFO | content_based.py:349 | Existing model artefacts found — skipping rebuild.
+2026-06-14 16:07:44 | movie_rec.content_based | INFO | content_based.py:266 | Generating recommendations for: 'Toy Story'  (row 0)
+2026-06-14 16:07:44 | movie_rec.content_based | INFO | content_based.py:283 | Returning 8 recommendations.
+2026-06-14 16:07:44 | movie_rec.content_based | INFO | content_based.py:266 | Generating recommendations for: 'Batman: The Dark Knight Returns, Part 1'  (row 8032)
+2026-06-14 16:07:44 | movie_rec.content_based | INFO | content_based.py:283 | Returning 8 recommendations.
+2026-06-14 16:07:44 | movie_rec.content_based | INFO | content_based.py:266 | Generating recommendations for: 'Inception'  (row 7372)
+2026-06-14 16:07:44 | movie_rec.content_based | INFO | content_based.py:283 | Returning 8 recommendations.
+2026-06-14 16:07:44 | movie_rec.content_based | INFO | content_based.py:266 | Generating recommendations for: 'Schindler's List'  (row 461)
+2026-06-14 16:07:44 | movie_rec.content_based | INFO | content_based.py:283 | Returning 8 recommendations.
+2026-06-14 16:07:44 | movie_rec.content_based | INFO | content_based.py:266 | Generating recommendations for: 'Forrest Gump'  (row 314)
+2026-06-14 16:07:44 | movie_rec.content_based | INFO | content_based.py:283 | Returning 8 recommendations.
+2026-06-14 16:07:44 | run_content_based | ERROR | run_content_based.py:95 | Query 'The Silence of the Lambs' failed: Movie 'The Silence of the Lambs' not found in the catalog. Check the title spelling or use the search bar.
+2026-06-14 16:07:44 | run_content_based | INFO | run_content_based.py:119 | [SUCCESS] Content-based evaluation complete.
+2026-06-14 16:08:12 | run_content_based | INFO | run_content_based.py:109 | Starting content-based model evaluation...
+2026-06-14 16:08:12 | movie_rec.content_based | INFO | content_based.py:198 | Loading content-based model artefacts from disk...
+2026-06-14 16:08:14 | movie_rec.content_based | INFO | content_based.py:203 | All model artefacts loaded successfully.
+2026-06-14 16:08:14 | movie_rec.content_based | INFO | content_based.py:349 | Existing model artefacts found — skipping rebuild.
+2026-06-14 16:08:14 | movie_rec.content_based | INFO | content_based.py:266 | Generating recommendations for: 'Toy Story'  (row 0)
+2026-06-14 16:08:14 | movie_rec.content_based | INFO | content_based.py:283 | Returning 8 recommendations.
+2026-06-14 16:08:14 | movie_rec.content_based | INFO | content_based.py:266 | Generating recommendations for: 'Batman: The Dark Knight Returns, Part 1'  (row 8032)
+2026-06-14 16:08:14 | movie_rec.content_based | INFO | content_based.py:283 | Returning 8 recommendations.
+2026-06-14 16:08:14 | movie_rec.content_based | INFO | content_based.py:266 | Generating recommendations for: 'Inception'  (row 7372)
+2026-06-14 16:08:14 | movie_rec.content_based | INFO | content_based.py:283 | Returning 8 recommendations.
+2026-06-14 16:08:14 | movie_rec.content_based | INFO | content_based.py:266 | Generating recommendations for: 'Schindler's List'  (row 461)
+2026-06-14 16:08:14 | movie_rec.content_based | INFO | content_based.py:283 | Returning 8 recommendations.
+2026-06-14 16:08:14 | movie_rec.content_based | INFO | content_based.py:266 | Generating recommendations for: 'Forrest Gump'  (row 314)
+2026-06-14 16:08:14 | movie_rec.content_based | INFO | content_based.py:283 | Returning 8 recommendations.
+2026-06-14 16:08:14 | movie_rec.content_based | INFO | content_based.py:266 | Generating recommendations for: 'Silence of the Lambs, The'  (row 510)
+2026-06-14 16:08:14 | movie_rec.content_based | INFO | content_based.py:283 | Returning 8 recommendations.
+2026-06-14 16:08:14 | run_content_based | INFO | run_content_based.py:119 | [SUCCESS] Content-based evaluation complete.
+2026-06-14 16:30:52 | run_collaborative | INFO | run_collaborative.py:71 | Starting collaborative filtering evaluation...
+2026-06-14 16:30:52 | movie_rec.collaborative | INFO | collaborative.py:239 | === Building Collaborative Filtering Model ===
+2026-06-14 16:30:52 | movie_rec.collaborative | INFO | collaborative.py:51 | Building User-Item Matrix...
+2026-06-14 16:30:52 | movie_rec.collaborative | INFO | collaborative.py:73 | User-Item Matrix created: 610 users x 9742 movies.
+2026-06-14 16:30:52 | movie_rec.collaborative | INFO | collaborative.py:85 | Training Item-Based KNN Model...
+2026-06-14 16:30:52 | movie_rec.collaborative | INFO | collaborative.py:90 | Training User-Based KNN Model...
+2026-06-14 16:30:52 | movie_rec.collaborative | INFO | collaborative.py:106 | Computing SVD with k=50 latent features...
+2026-06-14 16:30:53 | movie_rec.collaborative | INFO | collaborative.py:125 | SVD prediction matrix computed.
+2026-06-14 16:30:53 | movie_rec.collaborative | INFO | collaborative.py:152 | Saved user_item_matrix.joblib (0.23 MB)
+2026-06-14 16:30:53 | movie_rec.collaborative | INFO | collaborative.py:152 | Saved item_knn_model.joblib (0.21 MB)
+2026-06-14 16:30:53 | movie_rec.collaborative | INFO | collaborative.py:152 | Saved user_knn_model.joblib (0.23 MB)
+2026-06-14 16:30:55 | movie_rec.collaborative | INFO | collaborative.py:152 | Saved svd_preds_matrix.joblib (34.51 MB)
+2026-06-14 16:30:55 | movie_rec.collaborative | INFO | collaborative.py:152 | Saved cf_user_map.joblib (0.00 MB)
+2026-06-14 16:30:55 | movie_rec.collaborative | INFO | collaborative.py:152 | Saved cf_movie_map.joblib (0.04 MB)
+2026-06-14 16:30:55 | movie_rec.collaborative | INFO | collaborative.py:152 | Saved cf_rev_user_map.joblib (0.00 MB)
+2026-06-14 16:30:55 | movie_rec.collaborative | INFO | collaborative.py:152 | Saved cf_rev_movie_map.joblib (0.04 MB)
+2026-06-14 16:30:55 | movie_rec.collaborative | INFO | collaborative.py:259 | === CF Model Build Complete ===
+2026-06-14 16:31:29 | movie_rec.collaborative | INFO | collaborative.py:165 | Loading collaborative filtering artifacts...
+2026-06-14 16:31:30 | movie_rec.collaborative | INFO | collaborative.py:234 | Existing CF model artifacts found — skipping rebuild.
+2026-06-14 16:31:30 | movie_rec.content_based | INFO | content_based.py:266 | Generating recommendations for: 'Toy Story'  (row 0)
+2026-06-14 16:31:30 | movie_rec.content_based | INFO | content_based.py:283 | Returning 3 recommendations.
+2026-06-14 16:38:11 | movie_rec.evaluation | INFO | run_evaluation.py:22 | === Starting Offline Evaluation ===
+2026-06-14 16:38:12 | movie_rec.evaluation | INFO | run_evaluation.py:30 | Loaded 100836 ratings.
+2026-06-14 16:38:12 | movie_rec.evaluation | INFO | run_evaluation.py:34 | Split data into 80668 training ratings and 20168 testing ratings.
+2026-06-14 16:38:12 | movie_rec.evaluation | INFO | run_evaluation.py:59 | Training SVD with k=50...
+2026-06-14 16:38:12 | movie_rec.evaluation | INFO | run_evaluation.py:67 | Calculating metrics on test set...
+2026-06-14 16:38:13 | movie_rec.evaluation | INFO | run_evaluation.py:102 | Evaluation complete.

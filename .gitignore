@@ -1,0 +1,37 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Datasets and SQLite DBs
+data/
+*.csv
+*.json
+*.db
+*.sqlite3
+
+# ML Models and Outputs
+models/
+*.joblib
+outputs/
+*.png
+*.jpg
+*.jpeg
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
